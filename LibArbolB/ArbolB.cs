@@ -107,6 +107,106 @@ namespace LibArbolB
             }
         }
 
+        public T buscar(T valor)
+		{
+            return Get(valor, ruta);
+		}
+
+        private T Get(T valor, Nodo<T> nodo)
+		{
+			for (int i = 0; i < nodo.Valor.Length; i++)
+			{
+				if (valor.CompareTo(nodo.Valor[i])<0)
+				{
+                    return Get(valor, nodo.Hijos[i]);
+				}
+                else if (valor.CompareTo(nodo.Valor[i]) > 0)
+                {
+                    return Get(valor, nodo.Hijos[i + 1]);
+                }
+                else if (valor.CompareTo(nodo.Valor[i]) == 0)
+                {
+                    return nodo.Valor[i];
+                }
+            }
+            return default;
+		}
+
+        public List<T> Ir(string recorrido)
+		{
+            List.Clear();
+			if (recorrido == "preorder")
+			{
+                PreOrder(ruta);
+			}
+			else if (recorrido == "inorder")
+			{
+                InOrder(ruta);
+			
+            }else if(recorrido == "postorder")
+			{
+                PostOrder(ruta);
+			}
+            return List;
+		}
+
+        private void PreOrder(Nodo<T> nodo)
+        {
+            for (int i = 0; i < nodo.Valor.Length; i++)
+            {
+                if (!(EqualityComparer<T>.Default.Equals(nodo.Valor[i], default(T))))
+                {
+                    List.Add(nodo.Valor[i]);
+                }
+            }
+            for (int j = 0; j < nodo.Valor.Length + 1; j++)
+            {
+                if (nodo.Hijos[j] != null)
+                {
+                    PreOrder(nodo.Hijos[j]);
+                }
+            }
+        }
+
+        private void InOrder(Nodo<T> nodo)
+        {
+            for (int i = 0; i < nodo.Valor.Length; i++)
+            {
+                if (i == 0)
+                {
+                    if (nodo.Hijos[i] != null)
+                    {
+                        InOrder(nodo.Hijos[i]);
+                    }
+                }
+                if (!(EqualityComparer<T>.Default.Equals(nodo.Valor[i], default(T))))
+                {
+                    List.Add(nodo.Valor[i]);
+                    if (nodo.Hijos[i + 1] != null)
+                    {
+                        InOrder(nodo.Hijos[i + 1]);
+                    }
+                }
+            }
+        }
+
+        private void PostOrder(Nodo<T> nodo)
+        {
+            for (int j = 0; j < nodo.Valor.Length + 1; j++)
+            {
+                if (nodo.Hijos[j] != null)
+                {
+                    PostOrder(nodo.Hijos[j]);
+                }
+            }
+            for (int i = 0; i < nodo.Valor.Length; i++)
+            {
+                if (!(EqualityComparer<T>.Default.Equals(nodo.Valor[i], default(T))))
+                {
+                    List.Add(nodo.Valor[i]);
+                }
+            }
+        }
 
     }
 }

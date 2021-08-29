@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ArbolB_Consola/1.0.0": {
+        "dependencies": {
+          "LibArbolB": "1.0.0"
+        },
+        "runtime": {
+          "ArbolB_Consola.dll": {}
+        }
+      },
+      "LibArbolB/1.0.0": {
+        "runtime": {
+          "LibArbolB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArbolB_Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibArbolB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
