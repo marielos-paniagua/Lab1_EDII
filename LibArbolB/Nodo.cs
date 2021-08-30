@@ -26,7 +26,7 @@ namespace LibArbolB
 
         public Nodo(T val, int grado)
         {
-            Valor = new T[grado - 1];
+            Valor = new T[grado];
             Hijos = new Nodo<T>[grado];
             Valor[0] = val;
         }
