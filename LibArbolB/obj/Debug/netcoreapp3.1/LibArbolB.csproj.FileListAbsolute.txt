@@ -17,3 +17,13 @@ C:\Users\casa\Desktop\TVisual\lab1EDII\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3
 C:\Users\casa\Desktop\TVisual\lab1EDII\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csproj.CoreCompileInputs.cache
 C:\Users\casa\Desktop\TVisual\lab1EDII\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.dll
 C:\Users\casa\Desktop\TVisual\lab1EDII\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.pdb
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.deps.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.dll
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.pdb
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csproj.AssemblyReference.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.AssemblyInfoInputs.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.AssemblyInfo.cs
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csproj.CoreCompileInputs.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.dll
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.pdb

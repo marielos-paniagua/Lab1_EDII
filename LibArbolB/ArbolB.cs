@@ -175,22 +175,30 @@ namespace LibArbolB
 
             cont = 0;
             ruta.Agregar(temp.Valor[temp.Valor.Length / 2]);
-            for (int i = ruta.Valor.Length - 1; i > 0; i--)
+            if (drc.Valor[0].CompareTo(ruta.Valor[ruta.Valor.Length - 1]) > 0)
             {
-                int j;
-                if (drc.Valor[0].CompareTo(ruta.Valor[i]) < 0)
+                ruta.Hijos[contH + 1] = drc;
+                contH++;
+            }
+            else
+            {
+                for (int i = ruta.Valor.Length - 1; i > 0; i--)
                 {
-                    for (j = contH; j > 0; j--)
+                    int j;
+                    if (drc.Valor[0].CompareTo(ruta.Valor[i]) < 0)
                     {
-                        if (nodo.Valor[0].CompareTo(ruta.Hijos[j].Valor[0]) == 0)
-                        {                            
-                            break;
+                        for (j = contH; j > 0; j--)
+                        {
+                            if (nodo.Valor[0].CompareTo(ruta.Hijos[j].Valor[0]) == 0)
+                            {
+                                break;
+                            }
+                            ruta.Hijos[j + 1] = ruta.Hijos[j];
                         }
-                        ruta.Hijos[j + 1] = ruta.Hijos[j];
+                        ruta.Hijos[j + 1] = drc;
+                        contH++;
+                        i = 0;
                     }
-                    ruta.Hijos[j + 1] = drc;
-                    contH++;
-                    i = 0;
                 }
             }
         }

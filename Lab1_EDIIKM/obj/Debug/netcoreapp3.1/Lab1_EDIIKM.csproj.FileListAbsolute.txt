@@ -19,3 +19,27 @@ C:\Users\BrianPalaciosE\Desktop\Estructura de datos 2\Lab1_EDII\Lab1_EDIIKM\obj\
 C:\Users\BrianPalaciosE\Desktop\Estructura de datos 2\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.dll
 C:\Users\BrianPalaciosE\Desktop\Estructura de datos 2\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.pdb
 C:\Users\BrianPalaciosE\Desktop\Estructura de datos 2\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.genruntimeconfig.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.exe
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.deps.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.runtimeconfig.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.runtimeconfig.dev.json
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.dll
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\Lab1_EDIIKM.pdb
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\LibArbolB.dll
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\bin\Debug\netcoreapp3.1\LibArbolB.pdb
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.csproj.AssemblyReference.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.AssemblyInfoInputs.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.AssemblyInfo.cs
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.csproj.CoreCompileInputs.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\staticwebassets\Lab1_EDIIKM.StaticWebAssets.Manifest.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\staticwebassets\Lab1_EDIIKM.StaticWebAssets.xml
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\scopedcss\bundle\Lab1_EDIIKM.styles.css
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.RazorTargetAssemblyInfo.cache
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.csproj.CopyComplete
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.dll
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.pdb
+C:\Users\BrianPalaciosE\Desktop\Lab1_EDII\Lab1_EDIIKM\obj\Debug\netcoreapp3.1\Lab1_EDIIKM.genruntimeconfig.cache
