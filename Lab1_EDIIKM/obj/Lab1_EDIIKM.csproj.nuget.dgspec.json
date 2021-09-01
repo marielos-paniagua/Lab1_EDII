@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {}
+    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
         "projectName": "Lab1_EDIIKM",
-        "projectPath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
-        "packagesPath": "C:\\Users\\BrianPalaciosE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\obj\\",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\BrianPalaciosE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -34,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
-                "projectPath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj"
+              "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
+                "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj"
               }
             }
           }
@@ -49,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -67,28 +67,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
         "projectName": "LibArbolB",
-        "projectPath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
-        "packagesPath": "C:\\Users\\BrianPalaciosE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\LibArbolB\\obj\\",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
+        "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\BrianPalaciosE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -127,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

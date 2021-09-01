@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d1ASnguvAmeoH5b6p6Yjd09RboepaUqtkK0h7f0bDQH8YC2S9s9oKtC3K/QY5NZtEzKUpNX/zVSagLcmFvWPdg==",
+  "dgSpecHash": "ZZXK3xyE9XcE8FHOR0zcGi1FNJ2pbrwg4zNwma8M7TfDf4nthS2tJs/T5xugyyz2fhhdMjcbgIPRr/Pz9QwAIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BrianPalaciosE\\Desktop\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\casa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

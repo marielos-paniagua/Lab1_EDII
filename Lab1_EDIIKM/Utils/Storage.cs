@@ -19,6 +19,6 @@ namespace Lab1_EDIIKM.Utils
                 return _instance;
             }
         }
-        public ArbolB<Peliculas> ArbolP = new ArbolB<Peliculas>(5);
+        public ArbolB<Peliculas> ArbolP;
     }
 }

@@ -81,9 +81,9 @@ namespace LibArbolB
                         }
                         else if (valor.CompareTo(nodo.Valor[i]) > 0)
                         {
-                            if (i + 1 < nodo.Valor.Length)
+                            if (i + 1 < contH)
                             {
-                                if (valor.CompareTo(nodo.Valor[i + 1]) > 0) 
+                                if (valor.CompareTo(nodo.Valor[i + 1]) < 0) 
                                 {
                                     if (nodo.Hijos[i + 1] == null)
                                     {
@@ -175,14 +175,14 @@ namespace LibArbolB
 
             cont = 0;
             ruta.Agregar(temp.Valor[temp.Valor.Length / 2]);
-            if (drc.Valor[0].CompareTo(ruta.Valor[ruta.Valor.Length - 1]) > 0)
+            if (drc.Valor[0].CompareTo(ruta.Valor[contH]) > 0)
             {
                 ruta.Hijos[contH + 1] = drc;
                 contH++;
             }
             else
             {
-                for (int i = ruta.Valor.Length - 1; i > 0; i--)
+                for (int i = contH; i > 0; i--)
                 {
                     int j;
                     if (drc.Valor[0].CompareTo(ruta.Valor[i]) < 0)
@@ -248,14 +248,14 @@ namespace LibArbolB
 
         private void PreOrder(Nodo<T> nodo)
         {
-            for (int i = 0; i < nodo.Valor.Length; i++)
+            for (int i = 0; i < nodo.Valor.Length - 1; i++)
             {
                 if (!(EqualityComparer<T>.Default.Equals(nodo.Valor[i], default(T))))
                 {
                     List.Add(nodo.Valor[i]);
                 }
             }
-            for (int j = 0; j < nodo.Valor.Length + 1; j++)
+            for (int j = 0; j < nodo.Valor.Length; j++)
             {
                 if (nodo.Hijos[j] != null)
                 {
@@ -266,7 +266,7 @@ namespace LibArbolB
 
         private void InOrder(Nodo<T> nodo)
         {
-            for (int i = 0; i < nodo.Valor.Length; i++)
+            for (int i = 0; i < nodo.Valor.Length - 1; i++)
             {
                 if (i == 0)
                 {
@@ -288,19 +288,72 @@ namespace LibArbolB
 
         private void PostOrder(Nodo<T> nodo)
         {
-            for (int j = 0; j < nodo.Valor.Length + 1; j++)
+            for (int j = 0; j < nodo.Valor.Length; j++)
             {
                 if (nodo.Hijos[j] != null)
                 {
                     PostOrder(nodo.Hijos[j]);
                 }
             }
-            for (int i = 0; i < nodo.Valor.Length; i++)
+            for (int i = 0; i < nodo.Valor.Length - 1; i++)
             {
                 if (!(EqualityComparer<T>.Default.Equals(nodo.Valor[i], default(T))))
                 {
                     List.Add(nodo.Valor[i]);
                 }
+            }
+        }
+
+        public bool Eliminar(T valor)
+        {
+            return Elimina(valor, ruta);
+        }
+
+        private bool Elimina(T valor, Nodo<T> nodo)
+        {
+            if (nodo.Hijos[0] != null)
+            {
+                for (int i = 0; i < nodo.Valor.Length; i++)
+                {
+                    if (valor.CompareTo(nodo.Valor[i]) < 0)
+                    {
+                        if (i == 0)
+                        {
+                            return Elimina(valor, nodo.Hijos[i]);
+                        }
+                    }
+                    else if (valor.CompareTo(nodo.Valor[i]) == 0)
+                    {
+                        nodo.EliminarValor(valor);
+                    }
+                    else if (valor.CompareTo(nodo.Valor[i]) > 0)
+                    {
+                        if (i == nodo.Valor.Length - 1)
+                        {
+                            if (valor.CompareTo(nodo.Valor[i]) < 0)
+                            {
+                                return Elimina(valor, nodo.Hijos[i]);
+                            }
+                            else
+                            {
+                                return Elimina(valor, nodo.Hijos[i + 1]);
+                            }
+                        }
+                        else
+                        {
+                            if (valor.CompareTo(nodo.Valor[i + 1]) < 0)
+                            {
+                                return Elimina(valor, nodo.Hijos[i + 1]);
+                            }
+                        }
+                    }
+                }
+                return false;
+            }
+            else
+            {
+                nodo.EliminarValor(valor);
+                return true;
             }
         }
 

@@ -45,6 +45,11 @@ namespace LibArbolB
             NodoGrado();
         }
 
+        static bool IsNullOrDefault<T>(T value)
+        {
+            return object.Equals(value, default(T));
+        }
+
         public void NodoGrado()
         {
             T temp;
@@ -52,7 +57,7 @@ namespace LibArbolB
             {
                 for (int j = i+1; j < Valor.Length; j++)
                 {
-                    if (Valor[j] == null)
+                    if (IsNullOrDefault(Valor[j]))
                     {
                         i = Valor.Length - 1;
                         j = Valor.Length;
@@ -68,6 +73,20 @@ namespace LibArbolB
                     }
                 }
             }
+        }
+
+        public bool EliminarValor(T valor)
+        {
+            for (int i = 0; i < Valor.Length; i++)
+            {
+                if (valor.CompareTo(Valor[i]) == 1)
+                {
+                    Valor[i] = (default(T));
+                    NodoGrado();
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
