@@ -1,0 +1,106 @@
+[
+{
+    "director": "Stanley Kubrick",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 02 1968",
+    "rottenTomatoesRating": 96,
+    "title": "2001: A Space Odyssey"
+  },
+{
+    "director": "Nadie",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 02 1928",
+    "rottenTomatoesRating": 95,
+    "title": "lola"
+  },
+{
+    "director": "Paquita",
+    "imdbRating": 3.2,
+    "genre": null,
+    "releaseDate": "Apr 02 2008",
+    "rottenTomatoesRating": 51,
+    "title": "paquita"
+  },
+{
+    "director": "Sana",
+    "imdbRating": 4.9,
+    "genre": null,
+    "releaseDate": "Apr 02 1996",
+    "rottenTomatoesRating": 100,
+    "title": "sapm"
+  },
+{
+    "director": "Mof",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 02 1961",
+    "rottenTomatoesRating": 36,
+    "title": "mflks"
+  },
+{
+    "director": "Ronq",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 02 1950",
+    "rottenTomatoesRating": 95,
+    "title": "dpoq"
+  },
+{
+    "director": "Julian",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 05 1968",
+    "rottenTomatoesRating": 16,
+    "title": "y342"
+  },
+{
+    "director": "Chae",
+    "imdbRating": 10,
+    "genre": null,
+    "releaseDate": "Apr 23 1999",
+    "rottenTomatoesRating": 100,
+    "title": "fjis"
+  },
+{
+    "director": "lola",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 23 1968",
+    "rottenTomatoesRating": 45,
+    "title": "ldse"
+  },
+{
+    "director": "Nay",
+    "imdbRating": 10,
+    "genre": null,
+    "releaseDate": "Apr 02 1995",
+    "rottenTomatoesRating": 100,
+    "title": "fen"
+  },
+{
+    "director": "Mina",
+    "imdbRating": 9.9,
+    "genre": null,
+    "releaseDate": "Apr 02 1997",
+    "rottenTomatoesRating": 96,
+    "title": "finn"
+  },
+{
+    "director": "Dan",
+    "imdbRating": 9.4,
+    "genre": null,
+    "releaseDate": "Apr 02 1998",
+    "rottenTomatoesRating": 99,
+    "title": "jake"
+  },
+{
+    "director": "Lisaa",
+    "imdbRating": 8.4,
+    "genre": null,
+    "releaseDate": "Apr 02 2001",
+    "rottenTomatoesRating": 32,
+    "title": "colo"
+  }
+]

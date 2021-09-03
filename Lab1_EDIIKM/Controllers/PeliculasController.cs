@@ -41,20 +41,20 @@ namespace Lab1_EDIIKM.Controllers
             }
 		}
 
-        //Post para utilizar en raw body, documentado porque afecta al post por file
-        //[HttpPost]
-        //public ActionResult Post([FromBody] Peliculas Nuevo)
-        //{
-        //	try
-        //	{
-        //		Storage.Instance.ArbolP.Agregar(Nuevo);
-        //		return Created("", Nuevo);
-        //	}
-        //	catch (Exception)
-        //	{
-        //		return BadRequest();
-        //	}
-        //}	
+        [HttpPost]
+        [Route("populate")]        
+        public ActionResult Post([FromBody] Peliculas Nuevo)
+        {
+            try
+            {
+                Storage.Instance.ArbolP.Agregar(Nuevo);
+                return Created("", Nuevo);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
 
         [HttpDelete("{delete}")]
         public ActionResult Delete(string delete)
@@ -93,7 +93,7 @@ namespace Lab1_EDIIKM.Controllers
         }
 
 		[HttpPost]
-		[Route("populate")]
+		[Route("import")]
 		public IActionResult PostFileP([FromForm] IFormFile File)
 		{
 			using var content = new MemoryStream();

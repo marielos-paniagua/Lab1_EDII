@@ -36,3 +36,12 @@ C:\Users\casa\Desktop\TVisual\lab1eii\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.
 C:\Users\casa\Desktop\TVisual\lab1eii\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csproj.CoreCompileInputs.cache
 C:\Users\casa\Desktop\TVisual\lab1eii\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.dll
 C:\Users\casa\Desktop\TVisual\lab1eii\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.pdb
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.deps.json
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.dll
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\bin\Debug\netcoreapp3.1\LibArbolB.pdb
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.AssemblyInfoInputs.cache
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.AssemblyInfo.cs
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.dll
+C:\Users\casa\Desktop\TVisual\EDIISUBIR\Lab1_EDII\LibArbolB\obj\Debug\netcoreapp3.1\LibArbolB.pdb

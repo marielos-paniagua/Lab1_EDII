@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {}
+    "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
         "projectName": "Lab1_EDIIKM",
-        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\Lab1_EDIIKM\\Lab1_EDIIKM.csproj",
         "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\Lab1_EDIIKM\\obj\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\Lab1_EDIIKM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
-                "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj"
+              "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
+                "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
+    "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
         "projectName": "LibArbolB",
-        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
+        "projectPath": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\LibArbolB.csproj",
         "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\lab1eii\\Lab1_EDII\\LibArbolB\\obj\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\TVisual\\EDIISUBIR\\Lab1_EDII\\LibArbolB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config",
